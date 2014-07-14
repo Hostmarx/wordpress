@@ -1,5 +1,5 @@
 /**
- * Início vusialização randômica dos produtos
+ * Início vusualização randômica dos produtos
  */
 function custom_woocommerce_get_catalog_ordering_args( $args ) {
 $orderby_value = isset( $_GET['orderby'] ) ? woocommerce_clean( $_GET['orderby'] ) : apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby' ) );
@@ -21,5 +21,5 @@ $sortby['random_list'] = 'Exibição randômica';
 return $sortby;
 }
 /**
- * fim vusialização randômica dos produtos
+ * fim vusualização randômica dos produtos
  */
